@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cyber Fraud Investigation Dashboard</title>
+
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <div class="dashboard-container">
+
+    <header class="dashboard-header">
+      <h1>Cyber Fraud Investigation</h1>
+      <p>Investigator Dashboard</p>
+    </header>
+
+
+    <section class="overview">
+
+      <div class="dashboard-card">
+        <h3>Active Cases</h3>
+        <p>12</p>
+      </div>
+
+      <div class="dashboard-card">
+        <h3>High Risk Cases</h3>
+        <p>4</p>
+      </div>
+
+      <div class="dashboard-card">
+        <h3>Closed Cases</h3>
+        <p>28</p>
+      </div>
+
+    </section>
+
+
+    <section class="case-section">
+
+      <h2>Investigation Case</h2>
+
+      <div class="case-card">
+
+        <p><strong>Case ID:</strong> CF-2026-001</p>
+
+        <p><strong>Fraud Type:</strong> Online Payment Fraud</p>
+
+        <p><strong>Transaction Amount:</strong> ₹25,000</p>
+
+        <p><strong>Investigation Date:</strong> 04 October 2026</p>
+
+        <p><strong>Status:</strong> Under Investigation</p>
+
+        <p><strong>Risk Level:</strong> High</p>
+
+      </div>
+
+    </section>
+
+
+    <section class="investigation-section">
+
+      <h2>Investigation Notes</h2>
+
+      <textarea
+        id="investigationNotes"
+        rows="6"
+        placeholder="Enter investigation notes..."
+      ></textarea>
+
+      <button id="saveNotesButton">
+        Save Notes
+      </button>
+
+      <p id="saveMessage"></p>
+
+    </section>
+
+  </div>
+
+
+  <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
