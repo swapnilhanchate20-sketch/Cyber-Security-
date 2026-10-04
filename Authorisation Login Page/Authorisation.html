@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Authorisation</title> 
+</head>
+<body>
+  
+  <div class="role-box">
+
+  <h2>Select Your Role</h2>
+
+  <label for="roleSelect">User Role</label>
+
+  <select id="roleSelect">
+    <option value="">-- Select Role --</option>
+    <option value="Investigator">🔎 Investigator</option>
+    <option value="Analyst">📊 Analyst</option>
+    <option value="Admin">👑 Admin</option>
+  </select>
+
+  <button id="continueButton">Continue</button>
+
+</div>
+
+<div id="accessMessage" class="access-message"></div>
+
+<button id="dashboardButton" style="display: none;">
+  Open Dashboard
+</button> 
+  
+  <script src="scripts/script.js"></script>
+  
+</body>
+</html>
