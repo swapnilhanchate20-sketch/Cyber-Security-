@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+   <link rel="stylesheet" href="styles/style.css"/>
+  <title>MFA</title>
+</head>
+<body>
+
+  <div class="mfa-container">
+
+    <h1>MFA Verification</h1>
+
+    <p>Enter the 6-digit verification code.</p>
+
+    <form id="mfaForm">
+
+      <div class="input-group">
+        <label for="mfaCode">Verification Code</label>
+
+        <input type="text" id="mfaCode" name="mfaCode" maxlength="6" inputmode="numeric" required>
+      </div>
+
+      <button type="submit">Verify</button>
+
+    </form>
+
+    <p class="security-note">🔒 Secure authentication</p>
+
+  </div>
+  
+ <script src="scripts/script.js"></script>
+  
+</body>
+      
+</html>
